@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { tw } from '../../utils/customized-tailwindest';
+import { tw } from '@/utils/tailwindest';
 
 const style = tw.style({
   display: 'flex',
