@@ -9,7 +9,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['prettier'],
   rules: {
-    
+    'react/react-in-jsx-scope': 'off',
+    'react/require-default-props': 'off',
     'prettier/prettier': 'error',
     'react/function-component-definition': 'off',
     'no-restricted-exports': 'off'
