@@ -4,6 +4,7 @@ import { tw } from '@/utils/tailwindest';
 
 const style = tw.style({
   display: 'flex',
+  backgroundColor: 'bg-amber-300',
 });
 
 const Button: React.FC = () => (
